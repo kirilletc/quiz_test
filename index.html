@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <nav role="navigation">
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#private">
+                        <li>Личная информация</li>
+                    </a>
+                    <a href="#exp">
+                        <li>Опыт</li>
+                    </a>
+                    <a href="#js">
+                        <li>Javascript</li>
+                    </a>
+                    <a href="#about">
+                        <li>О себе</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="top__slider top__slider_1">
+            <div class="top__slider-gradient">
+                <h1>Анкета</h1>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="flex__block flex__block_1">
+            <div class="icon__top icon__top_info"></div>
+            <h2>Личная информация</h2>
+            <div class="input__wrapper">
+                <input type="text" class="input__large" required>
+                <span class="placeholder">ФИО</span>
+            </div>
+            <div class="custom__select">
+                <select>
+                    <option value="0">Год рождения</option>
+                    <option value="1">1998</option>
+                    <option value="2">1997</option>
+                    <option value="3">1996</option>
+                    <option value="4">1995</option>
+                    <option value="5">1994</option>
+                    <option value="6">1993</option>
+                    <option value="7">1992</option>
+                    <option value="8">1991</option>
+                    <option value="9">1990</option>
+                    <option value="10">1989</option>
+                    <option value="11">1988</option>
+                    <option value="12">1987</option>
+                </select>
+            </div>
+            <div class="input__wrapper">
+                <input type="text" class="input__large" required>
+                <span class="placeholder">Место проживания</span>
+            </div>
+            <div class="input__wrapper">
+                <input type="text" class="input__large" required>
+                <span class="placeholder">Skype</span>
+            </div>
+            <div class="input__wrapper">
+                <input type="text" class="input__large" required>
+                <span class="placeholder">E-mail</span>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="flex__block flex__block_2">
+            <div class="icon__top icon__top_exp"></div>
+            <h2>Расскажите о своем опыте</h2>
+            <div class="checkbox__container">
+                <div class="checkbox__container-col">
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            БЭМ/OOCSS
+                            <input type="checkbox" checked="checked">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Stylus/LESS/SASS
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Работаю с SVG
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="checkbox__container-col">
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Верстаю семантично
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            ES2015/ES2016
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Gulp/GRUNT
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="checkbox__container-col">
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Webpack
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            jQuery
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                    <div class="checkbox__container-col-in">
+                        <label class="control control-checkbox">
+                            Ипользую Git
+                            <input type="checkbox">
+                            <div class="control_indicator"></div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="spacer"></div>
+
+        <div class="flex__block flex__block_3">
+
+        	 <div class="icon__top icon__top_js"></div>
+            <h2>Уровень владения JavaScript</h2>
+        </div>
+
+        <div class="spacer"></div>
+
+
+         <div class="flex__block flex__block_4">
+
+        	 <div class="icon__top icon__top_about"></div>
+            <h2 class="about">Расскажите о себе</h2>
+            <h3>Напишите несколько предложений, чем привлекла наша вакансия и что вы ожидаете от работы у нас.</h3>
+            <textarea placeholder="Понравилось тем, что"></textarea>
+
+        </div>
+
+        <div class="spacer"></div>
+
+
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
+
+</html>
