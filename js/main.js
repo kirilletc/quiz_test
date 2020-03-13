@@ -94,3 +94,6 @@ const elements = document.querySelectorAll(['range-slider', 'input']);
             input.style.setProperty('--value-width', '' + input.value.length);
         }
     });
+
+
+    
