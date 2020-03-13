@@ -983,6 +983,7 @@ button.button__blue {
     border: none;
     margin: 0 auto;
     cursor: pointer;
+    outline: none;
     -webkit-transition: all 0.23s ease;
     transition: all 0.23s ease;
 
