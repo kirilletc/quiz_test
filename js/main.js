@@ -72,3 +72,25 @@ function closeAllSelect(elmnt) {
 /* If the user clicks anywhere outside the select box,
 then close all select boxes: */
 document.addEventListener("click", closeAllSelect);
+
+
+const elements = document.querySelectorAll(['range-slider', 'input']);
+
+    elements.forEach(element => {
+        element.insertAdjacentHTML('afterend', `
+          <output>${element.value}</output>
+        `);
+    });
+
+    document.addEventListener('input', e => {
+        const input = e.target;
+        const output = input.nextElementSibling;
+        const valueDisplay = input.querySelector('.value-display');
+        if (output) {
+            output.textContent = input.value;
+        }
+        if (valueDisplay) {
+            valueDisplay.textContent = input.value;
+            input.style.setProperty('--value-width', '' + input.value.length);
+        }
+    });
